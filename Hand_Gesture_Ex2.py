@@ -85,15 +85,15 @@ while capture.isOpened():
 
         # Print number of fingers
         if count_defects == 0:
-            cv2.putText(frame, "UNO", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255),2)
+            cv2.putText(frame, "ONE", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255),2)
         elif count_defects == 1:
-            cv2.putText(frame, "DOS", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
+            cv2.putText(frame, "TWO", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
         elif count_defects == 2:
-            cv2.putText(frame, "TRES", (5, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
+            cv2.putText(frame, "THREE", (5, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
         elif count_defects == 3:
-            cv2.putText(frame, "CUATRO", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
+            cv2.putText(frame, "FOUR", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
         elif count_defects == 4:
-            cv2.putText(frame, "CINCO", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
+            cv2.putText(frame, "FIVE", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 2,(0,0,255), 2)
         else:
             pass
     except:
